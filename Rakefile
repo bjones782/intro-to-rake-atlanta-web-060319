@@ -4,7 +4,7 @@ task :hello do
 end
 
 desc 'give Student.create_table access to the cofig/envirnment.rb file'
-task: environment do
+task :environment do
   require_relative
   './config/environment'
 end 
